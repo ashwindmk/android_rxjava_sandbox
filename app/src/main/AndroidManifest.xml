@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RxJavaSandbox">
-        <activity android:name=".subject.single.SingleSubjectActivity"></activity>
+        <activity android:name=".flowable.buffer.BufferFlowableActivity"></activity>
+        <activity android:name=".subject.single.SingleSubjectActivity" />
         <activity android:name=".subject.replay.ReplaySubjectActivity" />
         <activity android:name=".subject.behavior.BehaviorSubjectActivity" />
         <activity android:name=".subject.async.AsyncSubjectActivity" />

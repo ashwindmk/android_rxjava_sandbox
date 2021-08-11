@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.ashwin.rxjavasandbox.databinding.ActivityMainBinding;
+import com.ashwin.rxjavasandbox.flowable.buffer.BufferFlowableActivity;
 import com.ashwin.rxjavasandbox.subject.async.AsyncSubjectActivity;
 import com.ashwin.rxjavasandbox.subject.behavior.BehaviorSubjectActivity;
 import com.ashwin.rxjavasandbox.subject.publish.PublishSubjectActivity;
@@ -19,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.flowableButton.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, BufferFlowableActivity.class));
+        });
 
         binding.subjectPublishButton.setOnClickListener(v -> {
             startActivity(new Intent(MainActivity.this, PublishSubjectActivity.class));
