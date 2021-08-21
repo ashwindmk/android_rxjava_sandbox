@@ -18,8 +18,55 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="12dp"
             android:text="Hello Rx-Java" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_margin="24dp"/>
+
+        <Button
+            android:id="@+id/filter_button"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="OPERATOR: FILTER" />
+
+        <Button
+            android:id="@+id/repeat_button"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="OPERATOR: REPEAT" />
+
+        <Button
+            android:id="@+id/scan_button"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="OPERATOR: SCAN" />
+
+        <Button
+            android:id="@+id/reduce_button"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="OPERATOR: REDUCE" />
+
+        <Button
+            android:id="@+id/debounce_button"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="OPERATOR: DEBOUNCE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_margin="24dp"/>
 
         <Button
             android:id="@+id/flowable_button"
@@ -27,6 +74,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="FLOWABLE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_margin="24dp"/>
 
         <Button
             android:id="@+id/subject_publish_button"

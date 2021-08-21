@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RxJavaSandbox">
-        <activity android:name=".flowable.buffer.BufferFlowableActivity"></activity>
+        <activity android:name=".operator.debounce.DebounceActivity"></activity>
+        <activity android:name=".operator.reduce.ReduceActivity" />
+        <activity android:name=".operator.scan.ScanActivity" />
+        <activity android:name=".operator.repeat.RepeatActivity" />
+        <activity android:name=".operator.filter.FilterActivity" />
+        <activity android:name=".flowable.buffer.BufferFlowableActivity" />
         <activity android:name=".subject.single.SingleSubjectActivity" />
         <activity android:name=".subject.replay.ReplaySubjectActivity" />
         <activity android:name=".subject.behavior.BehaviorSubjectActivity" />

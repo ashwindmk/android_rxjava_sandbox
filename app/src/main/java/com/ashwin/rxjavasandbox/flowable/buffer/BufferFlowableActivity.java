@@ -100,7 +100,6 @@ public class BufferFlowableActivity extends AppCompatActivity {
                 public void onNext(Integer integer) {
                     Log.d(Constant.TAG, NAME + ": subscription2: onNext: " + integer);
                     subscription2.request(20);
-
                 }
 
                 @Override
